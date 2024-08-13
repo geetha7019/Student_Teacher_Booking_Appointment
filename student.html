@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <style>
+        body {
+            background-color: #eae6e875;            
+            background-image: url('pic.jpg'); 
+            background-size: cover; 
+            background-repeat:repeat; 
+        }
+    </style>
+  <div class="container">
+    <h1>Student Booking</h1>
+    <form id="bookingForm">
+      <label for="teacher">Select Teacher:</label>
+      <select id="teacher" name="teacher">
+        <option value="1">Select Teacher</option>
+        <option value="2">Miss.Geetha</option>
+        <option value="3">Miss.Harshitha</option>
+        <option value="4">Miss.Jahnavi</option>
+        <option value="5">Miss.Indu</option>
+      </select>
+      <label for="date">Select Date:</label>
+      <input type="date" id="date" name="date">
+      <button type="submit">Book Appointment</button>
+    </form>
+    <div id="message"></div>
+    <a href="index.html">Back to Home</a>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

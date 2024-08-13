@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body><style>
+        body {
+            background-color: #eae6e875;            
+            background-image: url('pic.jpg'); 
+            background-size: cover; 
+            background-repeat:repeat; 
+        }
+    </style>
+  <div class="container">
+    <h1>Teacher Dashboard</h1>
+    <form id="availabilityForm">
+      <label for="teacherName">Teacher Name:</label>
+      <input type="text" id="teacherName" name="teacherName" value="Miss.Geetha" disabled>
+      <label for="availability">Set Availability:</label>
+      <input type="date" id="availability" name="availability">
+      <button type="submit">Set Availability</button>
+    </form>
+    <div id="teacherMessage"></div>
+    <a href="index.html">Back to Home</a>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
